@@ -8,4 +8,5 @@ st.title("Hello Jayan, Anuprita, Omar!")
 st.markdown("this is streamlit website for le wagon")
 
 
-df = pd.read_csv('moderation.csv')
+df = pd.read_csv('moderation (1).csv')
+st.dataframe(df.head())
