@@ -18,5 +18,5 @@ st.dataframe(df.head())
 
 
 
-
-px.histogram(df, x='email', color='email')
+hist_plot = px.histogram(df, x='email', color='email')
+st.plotly_chart(hist_plot)
